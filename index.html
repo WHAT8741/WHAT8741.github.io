@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>isthisworking</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <button id ="pythonbutton" style ="color: black; background-color: green;" onclick ="togglediv('pythonbuttons')">Python Commands</button>
+  <div id = "pythonbuttons" style ="display:none">
+  <p>This is a list of commands to remember for coding with python:</p>
+  <div>Lets begin...<div>
+  <image src="Python Logo.jpeg"></image>
+  <p> </p>
+  <button id ="basicsbutton" style ="color: black; background-color: green;" onclick ="togglediv('basics')">Basic Commands</button>
+  <div class ="basics" id ="basics" style ="display:none">The "print()" command is a extremely basic command, used to make words appear on the screen. You can either print text or the values of a variable or list. The "input()" command is used to get user input. It is used to ask the player something, and can then be used to store the answer in a variable. Variables are tricky. They go "name = value". In the example "x = 5 print(x)", the program would print "5". Lists are a very important part of programming. They are used to store multiple values in one variable. They are made with "list = [1, 2, 3, 4, 5]".</div>
+  <p> </p>
+  <button id ="turtlebutton" style ="color: black; background-color: green;" onclick ="togglediv('turtle')">Turtle Commands</button>
+  <div class ="turtle" id ="turtle" style ="display:none">By importing "turtle", you can create drawings using code. You can rename turtle by doning "pen = turtle.Turtle()". When you want to run the turtle command to draw a line, you would have to do "pen.forward(50)". You can also change the color of the pen by doing "pen.color("red")".</div>
+  <p> </p>
+  <button id ="intermediatebutton" style ="color: black; background-color: green;" onclick ="togglediv('intermediate')">Intermediate Commands</button>
+  <div class="intermediate" id ="intermediate" style ="display:none">By importing "random", you can do stuff like "random.randint(1, 10)" to create a random number 1-10. An "if/else" statement allows you to do something only if something else is true. You can use "elif" for additional if statements. End it all off with a "else". An "while" loop is like an "if" statement, but the command repeats until the condition of the "while" loop is false.</div>
+
+  <p> </p>
+    
+  <button id ="difficultbutton" style ="color: black; background-color: green;" onclick ="togglediv('difficult')">Difficult Commands</button>
+  <div class ="difficult" id ="difficult" style ="display:none">The "user_input" command allows you to read a user's input to do things, like detect words in it.</div>
+
+  <p> </p>
+
+  <button id ="datetimebutton" style ="color: black; background-color: green;" onclick ="togglediv('datetime')">Datetime Commands</button>
+  <div class ="datetime" id ="datetime" style ="display:none">The datetime commands you get by importing "datetime" allow you to do many things, like get ing the minute, hour, day, month, and year.</div>
+  
+  </div>
+  <p> </p>
+  
+  </div>
+  </div>
+  <p> </p>
+    <button id ="htmlbutton" style ="color: black; background-color: green;" onclick ="togglediv('htmlbuttons')">Html/Java Commands</button>
+    <div id = "htmlbuttons" style ="display:none">
+    <image src ="java.jpg"></image>
+    <p> </p>
+    <button id ="basic button" style ="color: black; background-color: green;" onclick ="togglediv('basic')">Basic Commands</button>
+    <div class ="basics" id = "basic" style ="display:none">The "&lt;p&gt;&lt;/p&gt;" command allows you to make a paragraph of text. For example, the code "&lt;p&gt;Hello world!&lt;/p&gt;" would read "Hello world!"</div></div>
+
+  <p> </p>
+
+  <button id ="python puzzles" style ="color: black; background-color: green;" onclick ="togglediv('pythpuzzles')">Python Puzzles</button>
+
+  <div id = "pythpuzzles" style ="display:none"> 
+  <p> </p>
+  <button id ="basicpuzzle" style ="color: black; background-color: green;" onclick ="puzzleb()">Basic Puzzle</button>
+  
+  <p class ="basics">Basic puzzle:</p>
+  <p class ="basics">user_input = input("What is your name?")</p>
+  <p class ="basics">print("Hello, " + user_input + "!")</p>
+
+  <button id ="intermediatepuzzle" style ="color: black; background-color: green;" onclick ="puzzlei()">Intermediate Puzzle</button>
+
+  <p class ="intermediate">Intermediate puzzle:</p>
+  <p class ="intermediate">import random</p>
+  <p class ="intermediate">x = random.randint(1, 10)</p>
+  <p class ="intermediate">print(x)</p>
+  
+  <button id ="difficultpuzzle" style ="color: black; background-color: green;" onclick ="puzzled()">Difficult Puzzle</button>
+
+  <p class ="difficult">Dificult puzzle:</p>
+  <p class ="difficult">if "time" in user_input:</p>
+  <p class ="difficult">print(f"The current time is {current_time.strftime('%H:%M')}. How can I help with something else?")</p></div>
+  
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="green" position="bottom-right"></script>
+</body>
+
+</html>
