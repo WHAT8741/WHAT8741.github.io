@@ -1,0 +1,31 @@
+html {
+  color: green;
+  height: 100%;
+  width: 100%;
+}
+
+.basics{
+  color:red;
+}
+
+.intermediate{
+  color:orange;
+}
+
+.turtle{
+  color:green;
+}
+
+.datetime{
+  color:#32002d;
+}
+
+.difficult{
+  color:blue;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  background-color: black; /* Add this line to set the background color to black */
+}
